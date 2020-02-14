@@ -1,2 +1,2 @@
-# personal_github_page
-Repository for my Personal GitHub Page
+# personal_website
+Repository for my Personal Website
