@@ -1,12 +1,15 @@
 import React from "react";
-import logo from "./logo.svg";
+// import logo from "./logo.svg";
 import "./App.css";
+
+import Header from "./components/header/header.component";
 
 class App extends React.Component {
     render() {
         return (
             <div className="App">
-                <header className="App-header">
+                <Header />
+                {/* <header className="App-header">
                     <h1>Welcome!</h1>
                     <p>
                         I know it's boring around here.... at least for now....
@@ -31,7 +34,7 @@ class App extends React.Component {
                     >
                         Linkedin
                     </a>
-                </header>
+                </header> */}
             </div>
         );
     }
